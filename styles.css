@@ -198,8 +198,15 @@ h2 {
   margin-bottom: 24px;
 }
 
+.header__img--container {
+  z-index: 2;
+}
+
 .header__img {
   width: 100%;
+  height: 50vh;  
+  padding: 24px 24px;
+  position: relative;
 }
 
 .img__wrapper {
